@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fit klub Kobeřice – posilovna</title>
+  <meta name="description" content="Fit klub Kobeřice, z.s. – posilovna v Kobeřicích. Volné váhy, kladkové věže, otevřeno každý den, vstup čipem nebo aplikací.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#top">Fit klub Kobeřice</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav">
+    <a href="#vybaveni">Vybavení</a>
+    <a href="#fotky">Fotky</a>
+    <a href="#kamera">Kamera</a>
+    <a href="#vstup">Vstup</a>
+    <a href="#cenik">Ceník</a>
+    <a href="#rad">Řád</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" aria-label="Fotky posilovny">
+    <div class="hero-slides">
+      <img class="slide is-active" src="images/posilovna-sal.jpg" alt="Hlavní sál posilovny se stojany na jednoručky a lavicemi">
+      <img class="slide" src="images/kladkova-vez.jpg" alt="Kladkové věže a žebřiny na zdi">
+      <img class="slide" src="images/jednorucky.jpg" alt="Stojan s řadou jednoruček" style="object-position: 50% 40%">
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <h1>Fit klub Kobeřice</h1>
+      <p>Posilovna spolku v Kobeřicích. Otevřeno každý den, vstup čipem nebo aplikací.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#cenik">Ceník členství</a>
+        <a class="btn btn-ghost" href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="ctrl" data-dir="-1" aria-label="Předchozí fotka">&#8592;</button>
+      <div class="dots" role="tablist" aria-label="Výběr fotky"></div>
+      <button class="ctrl" data-dir="1" aria-label="Další fotka">&#8594;</button>
+    </div>
+  </section>
+
+  <section class="facts">
+    <div><strong>Každý den 6:00–22:00</strong><span>Vstup jen s čipem nebo přes aplikaci</span></div>
+    <div><strong>60 Kč za trénink</strong><span>Jednorázový vstup, platba na účet</span></div>
+    <div><strong>od 600 Kč na čtvrt roku</strong><span>Členství pro studenty i dospělé</span></div>
+  </section>
+
+  <section class="section" id="vybaveni">
+    <div class="wrap">
+      <h2>Vybavení posilovny</h2>
+      <p class="lead">Sál s gumovou podlahou, zrcadlovou stěnou a vším, co je potřeba na klasický silový trénink.</p>
+
+      <article class="feature">
+        <img src="images/jednorucky.jpg" alt="Dvě řady jednoruček na stojanu" loading="lazy">
+        <div>
+          <h3>Volné váhy</h3>
+          <p>Dvě řady jednoruček na stojanu, rovné a EZ osy a stojany na kotouče podél zdí. Kotouče jsou po ruce a vracejí se na své místo.</p>
+        </div>
+      </article>
+
+      <article class="feature feature-reverse feature-tall">
+        <img src="images/lavice-stojan.jpg" alt="Nastavitelná lavice se stojanem na tlaky" loading="lazy">
+        <div>
+          <h3>Lavice a stojany</h3>
+          <p>Nastavitelná lavice se stojanem na tlaky, vedle další lavice a klece. Kotouče jsou rozdělené na stojanech na stěně.</p>
+        </div>
+      </article>
+
+      <article class="feature">
+        <img src="images/kladkova-vez.jpg" alt="Kladkové věže se závažím a žebřinami" loading="lazy">
+        <div>
+          <h3>Kladkové věže a stroje</h3>
+          <p>Kladkové věže s nastavitelným závažím, stroj na nohy, žebřiny a hrazda. K tomu madla, gumy a opasky na stěně.</p>
+        </div>
+      </article>
+
+      <article class="feature feature-reverse feature-tall">
+        <img src="images/satna-skrinky.jpg" alt="Šatna se skříňkami a závěsem" loading="lazy">
+        <div>
+          <h3>Šatna</h3>
+          <p>Očíslované zamykatelné skříňky, lavička a prostor na přezutí. Do posilovny se chodí v čisté cvičební obuvi.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="fotky">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Fotky</h2>
+        <div class="strip-ctrl">
+          <button class="ctrl" data-strip="-1" aria-label="Posunout doleva">&#8592;</button>
+          <button class="ctrl" data-strip="1" aria-label="Posunout doprava">&#8594;</button>
+        </div>
+      </div>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Galerie fotek">
+      <img src="images/posilovna-sal.jpg" alt="Hlavní sál" loading="lazy">
+      <img src="images/posilovna-pohled.jpg" alt="Sál s lavicemi a zrcadlovou stěnou" loading="lazy">
+      <img src="images/jednorucky.jpg" alt="Stojan s jednoručkami" loading="lazy">
+      <img src="images/stojan-kotouce.jpg" alt="Stojan na kotouče a osy" loading="lazy">
+      <img src="images/kladkova-vez.jpg" alt="Kladkové věže" loading="lazy">
+      <img src="images/vez-a-pasy.jpg" alt="Kladková věž a opasky na stěně" loading="lazy">
+      <img src="images/nacini-na-stene.jpg" alt="Náčiní na stěně a lavice" loading="lazy">
+      <img src="images/lavice-stojan.jpg" alt="Lavice a stojan na tlaky" loading="lazy">
+      <img src="images/satna-skrinky.jpg" alt="Šatna se skříňkami" loading="lazy">
+      <img src="images/satna.jpg" alt="Šatna" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section" id="kamera">
+    <div class="wrap">
+      <h2>Kamera</h2>
+      <p class="lead">Pohled do posilovny v reálném čase.</p>
+      <div class="camera-frame" role="img" aria-label="Místo pro obraz z kamery">
+        <span>Zde budou snímky z kamery</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="vstup">
+    <div class="wrap">
+      <h2>Vstup přes aplikaci</h2>
+      <p class="lead">Do posilovny teď vstoupíte i mobilem přes Bluetooth, čip už nepotřebujete. Čipy zatím fungují vedle aplikace.</p>
+
+      <div class="access">
+        <div class="access-main">
+          <ol class="steps">
+            <li>Pošlete e-mail na <a href="mailto:predseda@fitklubkoberice.cz">predseda@fitklubkoberice.cz</a> se jménem, příjmením a telefonním číslem.</li>
+            <li>Nainstalujte si aplikaci <strong>My2N</strong> z Google Play nebo App Store.</li>
+            <li>Na e-mail vám přijde pozvánka k aktivaci. Potvrďte ji přímo z mobilu, který budete používat. Z jiného zařízení, třeba z počítače, aktivace nevyjde a telefonem se pak dovnitř nedostanete.</li>
+            <li>Dveře otevřete jedním ze tří způsobů:
+              <ul>
+                <li>přiblížíte telefon ke čtečce na zhruba 1 m a dotknete se čtečky rukou,</li>
+                <li>přiložíte telefon přímo ke čtečce,</li>
+                <li>přiblížíte se na zhruba 1 m a dveře otevřete bezdotykově v aplikaci My2N.</li>
+              </ul>
+            </li>
+          </ol>
+
+          
+          <ul class="plain">
+            <li>Potřebujete Android 12 a novější nebo iOS 18 a novější. Na starším telefonu aplikaci nenainstalujete, použijte čip.</li>
+            <li>Když skončí předplatné nebo z jiného důvodu, přístup se zablokuje a přijde vám e-mail. Znovu vás odblokuje správce a pak musíte přístup znovu aktivovat v aplikaci My2N.</li>
+            <li>Při vrácení čipu dostanete zpět zálohu, nebo se odečte z dalšího předplatného. Podle domluvy.</li>
+          </ul>
+        </div>
+
+        <aside class="stores">
+          <h3>Stáhnout My2N</h3>
+          <div class="store">
+            <img src="images/qr-android.png" alt="QR kód ke stažení aplikace My2N pro Android" width="150" height="150" loading="lazy">
+            <div>
+              <strong>Android</strong>
+              <a href="https://play.google.com/store/apps/details?id=com.nn.my2ncommunicator" target="_blank" rel="noopener">Google Play</a>
+            </div>
+          </div>
+          <div class="store">
+            <img src="images/qr-ios.png" alt="QR kód ke stažení aplikace My2N pro iPhone" width="150" height="150" loading="lazy">
+            <div>
+              <strong>iPhone</strong>
+              <a href="https://apps.apple.com/cz/app/my2n/id1188403431" target="_blank" rel="noopener">App Store</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cenik">
+    <div class="wrap narrow">
+      <h2>Ceník</h2>
+      <div class="table-wrap">
+        <table class="price">
+          <thead>
+            <tr><th scope="col">Členství</th><th scope="col">Student</th><th scope="col">Dospělý</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Čtvrt roku</th><td>600 Kč</td><td>800 Kč</td></tr>
+            <tr><th scope="row">Půl roku</th><td>1 200 Kč</td><td>1 500 Kč</td></tr>
+            <tr><th scope="row">Rok</th><td>1 800 Kč</td><td>2 000 Kč</td></tr>
+            <tr class="single"><th scope="row">Jednorázový vstup</th><td colspan="2">60 Kč za trénink</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pay">
+        <img src="images/qr-platba.png" alt="QR kód pro platbu na účet Fit klubu Kobeřice" width="180" height="180" loading="lazy">
+        <div>
+          <h3>Platba na účet</h3>
+          <p class="account">Číslo účtu: <strong>155 417 863 / 0300</strong></p>
+          <p class="account">Naskenujte QR kód v bankovní aplikaci. Částku zadejte podle ceníku.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="rad">
+    <div class="wrap narrow">
+      <h2>Řád posilovny</h2>
+      <p class="lead">Vstupem do posilovny se každý zavazuje dodržovat tato pravidla.</p>
+      <ul class="rules">
+        <li>Před vstupem se přezujte do čisté cvičební obuvi.</li>
+        <li>Zapište si příjmení, jméno, čas příchodu a odchodu.</li>
+        <li>Nikdo nemá nárok na přednostní použití nářadí. Domluvte se mezi sebou.</li>
+        <li>Při extrémně těžkých vahách dělá každý na požádání záchranu. Kdo cvičí sám, extrémně těžké váhy nepoužívá.</li>
+        <li>Uklízejte po sobě činky. Po cvičení vraťte nářadí na původní místo a udržujte čistotu.</li>
+        <li>Při cvičení se neopírejte o zdi.</li>
+        <li>Při supersériích nebo kruhovém tréninku dbejte na bezpečnost ostatních.</li>
+        <li>Nerušte ostatní zbytečným hovorem ani hlasitou hudbou.</li>
+        <li>Do posilovny ani do šatny se nenosí energetické nápoje. Platí to hlavně pro mladší členy. Porušení znamená vyloučení.</li>
+        <li>V šatně je zákaz vapování.</li>
+        <li>Nechoďte do posilovny ve skupinách po osmi a nezabírejte místa třeba na 30 minut. Berte ohled na ostatní.</li>
+      </ul>
+      <p class="notice">V případě nemoci nebo jiných zdravotních potíží je cvičení zakázáno.</p>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <div class="wrap">
+      <h2>Kontakt</h2>
+      <div class="contacts">
+        <div>
+          <h3>Předseda</h3>
+          <p>Miroslav Moravec<br><a href="mailto:predseda@fitklubkoberice.cz">predseda@fitklubkoberice.cz</a></p>
+        </div>
+        <div>
+          <h3>Tajemník</h3>
+          <p>Marek Pavera<br><a href="mailto:tajemnik@fitklubkoberice.cz">tajemnik@fitklubkoberice.cz</a></p>
+        </div>
+        <div>
+          <h3>Hospodář</h3>
+          <p>Petr Löhnert</p>
+        </div>
+        <div>
+          <h3>Platby</h3>
+          <p>155 417 863 / 0300<br>Bezhotovostně na účet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Fit klub Kobeřice, z.s.</span>
+    <a href="http://www.cusopava.cz" target="_blank" rel="noopener">ČUS Opava</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
